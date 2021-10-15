@@ -1,0 +1,213 @@
+/* /*===============Style par défaut=================================*/
+
+* {
+	box-sizing : border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+}
+
+.font1{
+	margin: 0;
+  background-image:url("../img/background.jpg");
+	font-family : fantasy;
+}
+
+/* /*===============TITRE=================================*/
+
+nav a{
+	font-size: 1em;
+	text-decoration: none;
+}
+
+nav li {
+	font-weight: bold;
+	margin-right: 20px;
+	text-align: right;
+	list-style: none;
+	color: red;
+}
+
+
+h1{
+  color: coral;
+  text-align: center;
+}
+
+.titre{
+	color: #ffc800;
+  width: 100%;
+	font-size: 35px;
+	font-family: fantasy;
+	text-align: center;
+}
+
+/* /*===============TABLEAU=================================*/
+
+table {
+margin: auto;
+border: medium solid #FAEBD7;
+border-collapse: collapse;
+}
+
+.lien{
+	opacity: 0;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+}
+
+.lien-text{
+	width: 100%;
+	height: 100%;
+}
+
+
+th{
+width: 10%;
+color: white;
+opacity: 90%;
+font-size: 15px;
+border: thin solid #FAEBD7;
+padding: 1em;
+background-color: #FFA07A;
+}
+
+td{
+	height: 80px;
+	width: 50px;
+	color: white;
+	border: thin solid #FAEBD7;
+	background-color: #FFA07A;
+}
+
+
+.hour {
+	width: 200px;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.deadlines{
+	background-color: IndianRed;
+}
+
+.anniversaires{
+	background-color: DarkOrange;
+}
+
+.réunions{
+	background-color: DarkCyan
+}
+
+.soirées{
+background-color: DarkGoldenRod;
+}
+
+td:hover{
+	background-color: Peru;
+}
+
+.list:hover{
+color: Salmon;
+}
+
+.list{
+	color: #800000;
+	margin-left: 2%;
+	align-items: center;
+	display: flex;
+}
+
+#carre {
+    height: 20px;
+    width: 20px;
+    -webkit-transform: rotate(40deg); /* Safari et Chrome */
+}
+
+p{
+	font-family: sans-serif;
+	font-weight:bold;
+	font-size: 15px;
+	margin-left: 1%;
+}
+
+/* /*===============TABLEAU 2=================================*/
+
+.form-div{
+	display: flex;
+	justify-content: center;
+}
+
+legend{
+	color: #CD853F;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: cursive;
+}
+
+/* /*===============FORMULAIR=================================*/
+
+
+.font2{
+	background-color: Ivory;
+	margin: 0;
+	font-family : ;
+}
+
+fieldset{
+	width: 50%;
+	border-color: DimGray;
+	border-style: dashed;
+}
+
+form{
+	margin: 2em;
+}
+
+label{
+	font-family: fantasy;
+	color: #ffc800;
+	font-size: 1em;
+}
+
+input[type=text], textarea{
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ margin-right: 0px;
+ margin-left: 0px;
+ resize: vertical;
+ width: 100%;
+ padding: 12px;
+}
+
+.button input{
+	font-size: 100%;
+	font-weight: bold;
+	font-family:cursive;
+ 	color: #CD853F;
+}
+
+.button input:hover{
+	color:  #8B4513;
+}
+
+/* /*===============FOOTER=================================*/
+
+footer{
+	margin-top: 5%;
+	padding: 0.5%;
+	background-color: black;
+}
+
+footer p{
+	margin-right: 10%;
+	color: white;
+	text-align: right;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Formulaire de Contact</title>
+    <link href="css/agenda.css" rel="stylesheet" media="all">
+  </head>
+
+  <body class="font2">
+    <nav>
+      <ul>
+        <li><a href="agenda.html">Agenda</li></a>
+      </ul>
+    </nav>
+
+    <header>
+      <h1 class="titre">Formulaire</h1>
+    </header>
+
+      <div class="form-div">
+        <fieldset>
+        <legend>M'écrire</legend>
+          <form action="agenda.html" method="post">
+            <p>
+              <label for="date">Date</label>
+              <input type="text" id="date" name="user_date" placeholder="Date">
+            </p>
+
+            <p>
+              <label for="titre">Titre</label>
+              <input type="text" id="titre" name="user_titre" placeholder="Titre">
+            </p>
+
+            <p>
+              <label for="categorie">Catégorie</label>
+              <input type="text" id="categorie" name="user_categorie" placeholder="Catégorie">
+            </p>
+
+            <p>
+              <label for="description">Description:</label>
+              <textarea id="description" name="user_description" placeholder="Description"></textarea>
+            </p>
+
+            <p class="button">
+              <input type="reset" value="Annuler">
+              <input type="submit" value="valider">
+            </p>
+          </form>
+        </fieldset>
+      </div>
+
+      <footer>
+        <p>Copyright © 2021. Tous droits réservés.</p>
+      </footer>
+  </body>
+</html>
